@@ -45,6 +45,8 @@ java 8
 
 ### MySQL 建表
 
+数据库使用 utf8mb4 和 utf8_general_ci 编码，如果要改要修改 建表.sql 的内容。
+
 直接执行 sql 文件的 建表.sql 即可，那个剩下的是往那四个表里面加数据。
 
 
@@ -68,6 +70,14 @@ java 8
 ` mvn clean package`
 
 在 \service\service_chat\target 下会有个 service_chat-0.0.1-SNAPSHOT.jar ，在后台运行就可以了。
+
+
+
+## 安卓包
+
+在 打包后的 apk 里面有个安装包直接安装即可。
+
+如果你想更改 apk 包，那么请看后面的前端修改，最后将前端打包成 apk。
 
 
 
